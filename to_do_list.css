@@ -45,10 +45,10 @@ li{padding:1%}
 
 @media screen and (min-width:300px) and (max-width:500px) {
 	body{ font-size:150%}
-	.bott,.bot{ width:35%; font-size:120%}
-	.input-box{width:85%}
-	ol{margin:4%; font-size:120%}
-	li{padding:5%}
-	.inputText{width:50%; font-size:120%}
+	.bott,.bot{ width:40%; font-size:150%}
+	.input-box{width:95%}
+	ol{margin:6%; font-size:150%}
+	li{padding:10%}
+	.inputText{width:70%; font-size:150%}
 	
 }
