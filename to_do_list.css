@@ -44,11 +44,11 @@ color:#000000;}
 li{padding:1%}
 
 @media screen and (min-width:320px) and (max-width:500px) {
-	body{ font-size:110%}
-	.bott,.bot{ width:35%}
+	body{ font-size:120%}
+	.bott,.bot{ width:35%; font-size:100%}
 	.input-box{width:85%}
-	ol{margin:4%}
-	li{padding:3%}
-	.inputText{width:30%}
+	ol{margin:4%; font-size:100%}
+	li{padding:4%}
+	.inputText{width:50%; font-size:110%}
 	
 }
