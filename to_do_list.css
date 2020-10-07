@@ -43,12 +43,12 @@ color:#000000;}
 
 li{padding:1%}
 
-@media screen and (min-width:320px) and (max-width:500px) {
-	body{ font-size:120%}
-	.bott,.bot{ width:35%; font-size:100%}
+@media screen and (min-width:300px) and (max-width:500px) {
+	body{ font-size:150%}
+	.bott,.bot{ width:35%; font-size:120%}
 	.input-box{width:85%}
-	ol{margin:4%; font-size:100%}
-	li{padding:4%}
-	.inputText{width:50%; font-size:110%}
+	ol{margin:4%; font-size:120%}
+	li{padding:5%}
+	.inputText{width:50%; font-size:120%}
 	
 }
