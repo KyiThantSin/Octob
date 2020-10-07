@@ -43,7 +43,7 @@ color:#000000;}
 
 li{padding:1%}
 
-@media screen and (min-width:300px) and (max-width:500px) {
+@media screen and (min-width:280px) and (max-width:500px) {
 	body{ font-size:150%}
 	.bott,.bot{ width:40%; font-size:150%}
 	.input-box{width:95%}
