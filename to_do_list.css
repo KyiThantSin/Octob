@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{ font-family:"Courier New", Courier, monospace;
+	color:#666666}
+body{ margin:3%}
+
+.input-box{ border:solid 2% #FFFF99;
+ color:#666666;
+ display:inline-block;
+width:50%;
+background-image:url(../../py4e/meWrnJW.jpg);
+padding:9px;
+border-radius:6px;
+margin-right:9px;}
+
+.input{ padding:1.2%;
+border:solid 1% #FF6699;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:110%}
+
+.bott{font-family:"Courier New", Courier, monospace;
+display:inline-block;
+color:#000;
+background-color:#FFFF99;
+padding:0.5%;
+font-size:100%;
+margin:1%;
+width:15%}
+
+.bot{font-family:"Courier New", Courier, monospace;
+color:#000;
+background-color:#FFFF99;
+padding:0.5%;
+font-size:100%;
+margin:1%;
+width:7%}
+
+.list-design{ font-family:Tahoma, Geneva, sans-serif;
+padding:1%;
+font-size:110%;
+color:#000000;}
+
+li{padding:1%}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+	body{ font-size:110%}
+	.bott,.bot{ width:35%}
+	.input-box{width:85%}
+	ol{margin:4%}
+	li{padding:3%}
+	.inputText{width:30%}
+	
+}

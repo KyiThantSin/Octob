@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>October</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Food/to_do_list.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+
+<body background="https://media.istockphoto.com/photos/white-blue-wooden-background-picture-id936356086?k=6&m=936356086&s=170667a&w=0&h=pqmKKjk_-yun-MgPGG_7a8-cLhKrSPD0d4KmW0Yuz2s=">
+<h1>To Do Lists <i class="fas fa-clipboard-list"></i></h1>
+
+<div class="input-box">
+<input type="text" id="inputText" class="input"> 
+<button id="addBtn" onClick="addList()" class="bott">Add </button>
+</div>
+
+<ol id="lists" class="list-design">
+</ol>
+
+<script>
+i=1;
+
+input=document.getElementById("inputText");
+list=document.getElementById("lists");
+
+function textLength(y)
+        {
+            if (y){
+                if(y.length>=3){
+return y;
+                }
+                else{
+                    return alert("Your input is invalid.");
+                }
+                
+            }
+            else{
+                return alert("Input is empty");
+            }
+        }
+		
+function showlists(Text)
+{
+	return `<li id="list${i}"><span id="listtext${i})">${Text}</span>
+	<button onClick="deleteList(${i})" class="bot">Delete</button>
+			
+			</li>`;
+	i++;
+}
+
+function deleteList(listId)
+{ current=document.getElementById(`list${listId}`);
+	
+	
+	list.removeChild(current);
+	
+}
+
+	
+function addList()
+{
+	InputText=textLength(input.value);
+	if(InputText)
+	{
+	list.innerHTML += showlists(InputText);
+	input.value="";
+	}
+}
+
+
+</script>
+
+</body>
+</html>
